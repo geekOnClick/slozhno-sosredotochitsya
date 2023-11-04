@@ -1,5 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+.page {
+    /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+    background-color: var(--background-color);
+    background-attachment: fixed;
+}
+
 .space {
     margin-top: 60px;
 }
@@ -413,10 +419,4 @@
             'books'
             'street';
     }
-}
-
-.page {
-    /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-    background-color: var(--background-color);
-    background-attachment: fixed;
 }
