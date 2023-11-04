@@ -250,7 +250,7 @@
     grid-column: 2 / 2;
     display: flex;
     flex-direction: column;
-    row-gap: 14px;
+    row-gap: 10px;
 }
 
 .text-title,
@@ -379,6 +379,10 @@
     .article-col__title {
         max-width: 236px;
         grid-column: 1 / span 1;
+    }
+
+    .article__text {
+        row-gap: 14px;
     }
 
     .footer {
