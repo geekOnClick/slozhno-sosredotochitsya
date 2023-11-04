@@ -391,12 +391,30 @@
 }
 
 @media (max-width: 767.98px) {
+    .record-wrapprer-top {
+        right: 10px;
+        top: 10px;
+    }
+
+    .record-wrapprer-bottom {
+        left: 10px;
+        bottom: 10px;
+    }
+
     .header {
         max-height: 668px;
     }
 
+    .header__title {
+        margin-top: 10px;
+    }
+
+    .header__theme-menu-item {
+        padding: unset;
+    }
+
     .header__text {
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .main {
@@ -411,12 +429,8 @@
         align-self: flex-start;
     }
 
-    .header__text {
-        margin-top: unset;
-    }
-
     .articles-space {
-        margin-top: 50px;
+        margin-top: 55px;
     }
 
     .article,
@@ -452,8 +466,12 @@
             'street';
     }
 
+    .subtitle-col {
+        row-gap: 25px;
+    }
+
     .footer {
-        min-height: 768px;
+        min-height: 700px;
     }
 
     .footer__title {
