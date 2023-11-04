@@ -36,16 +36,15 @@
         --text-shadow: #ff0070;
         --text-background: #ff8dcb;
         --text-color: #353430;
+
         --link-color: var(--text-background);
-    }
 
-    /* background-color */
-    :root {
+        /* background-color */
+
         --background-image: url(../images/cover-image-light.png);
-    }
 
-    /* recording */
-    :root {
+        /* recording */
+
         --visibility-record: hidden;
     }
 }

@@ -35,15 +35,13 @@
         --link-color: var(--accent-color);
 
         --visibility-record: visible;
-    }
 
-    /* background-color */
-    :root {
+        /* background-color */
+
         --background-image: url(../images/cover-image-dark.png);
-    }
 
-    /* recording */
-    :root {
+        /* recording */
+
         --visibility-record: visible;
     }
 }

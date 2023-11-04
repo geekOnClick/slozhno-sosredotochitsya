@@ -20,7 +20,8 @@
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
     justify-content: space-between;
-    min-height: min(100vh, 768px);
+    min-height: 100vh;
+    height: 768px;
 }
 
 .decorated-zone {
@@ -214,12 +215,6 @@
 .article {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
-}
-
-.article-large {
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr 2fr;
 }
 
