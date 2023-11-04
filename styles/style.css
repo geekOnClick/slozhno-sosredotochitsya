@@ -186,7 +186,7 @@
     }
 
     .header__theme-menu-list {
-        margin-top: 68px;
+        margin-top: 60px;
     }
 
     .title {
@@ -429,8 +429,12 @@
         align-self: flex-start;
     }
 
+    .article__text {
+        row-gap: 10px;
+    }
+
     .articles-space {
-        margin-top: 55px;
+        margin-top: 40px;
     }
 
     .article,
