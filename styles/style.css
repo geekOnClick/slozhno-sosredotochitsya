@@ -429,12 +429,16 @@
         align-self: flex-start;
     }
 
+    .article-col {
+        row-gap: 25px;
+    }
+
     .article__text {
         row-gap: 10px;
     }
 
     .articles-space {
-        margin-top: 40px;
+        margin-top: 55px;
     }
 
     .article,
