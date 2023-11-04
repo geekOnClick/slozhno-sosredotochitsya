@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+/* config */
+:root {
+    --font-size-large: 157px;
+    --font-size-medium: 120px;
+    --font-size-medium-minus: 116px;
+    --font-size-base: 18px;
+
+    --line-height-large: 130px;
+    --line-height-medium: 99px;
+    --line-height-medium-minus: 95px;
+    --line-height-base: 23px;
+
+    --font-weight-bold: 700;
+    --font-weight-base: 400;
+}
