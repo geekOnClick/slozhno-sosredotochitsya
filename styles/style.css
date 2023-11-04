@@ -442,12 +442,12 @@
     }
 
     .article__text {
-        row-gap: 10px;
+        row-gap: 21px;
         grid-column: 1 / 1;
     }
 
     .articles-space {
-        margin-top: 50px;
+        margin-top: 54px;
     }
 
     .article,
@@ -481,14 +481,15 @@
     }
 
     .subtitle-col {
-        row-gap: 25px;
+        row-gap: 14px;
     }
 
     .footer {
-        min-height: 100vh;
+        min-height: 668px;
     }
 
     .footer__title {
         align-self: center;
+        margin-top: 28px;
     }
 }
