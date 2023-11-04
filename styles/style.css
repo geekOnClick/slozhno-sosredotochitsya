@@ -422,7 +422,7 @@
     }
 
     .space {
-        margin-top: 40px;
+        margin-top: 35px;
     }
 
     .title {
@@ -438,7 +438,7 @@
     }
 
     .articles-space {
-        margin-top: 55px;
+        margin-top: 50px;
     }
 
     .article,
@@ -466,6 +466,7 @@
     }
 
     .main__section__images {
+        gap: 10px;
         grid-template-areas:
             'sunset'
             'ice-cream'
