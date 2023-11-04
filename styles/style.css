@@ -166,6 +166,15 @@
 
     .header__text {
         max-height: 117px;
+        margin-top: 40px;
+    }
+
+    .article__title {
+        min-width: 236px;
+    }
+
+    .articles-space {
+        margin-top: 110px;
     }
 }
 
