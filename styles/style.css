@@ -391,6 +391,14 @@
 }
 
 @media (max-width: 767.98px) {
+    .header {
+        max-height: 668px;
+    }
+
+    .header__text {
+        margin-top: 30px;
+    }
+
     .main {
         padding: 0 10px;
     }
@@ -442,5 +450,13 @@
             'tape'
             'books'
             'street';
+    }
+
+    .footer {
+        min-height: 768px;
+    }
+
+    .footer__title {
+        align-self: center;
     }
 }
