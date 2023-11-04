@@ -186,7 +186,7 @@
     }
 
     .header__theme-menu-list {
-        margin-top: 76px;
+        margin-top: 68px;
     }
 
     .title {
@@ -471,7 +471,7 @@
     }
 
     .footer {
-        min-height: 700px;
+        min-height: 100vh;
     }
 
     .footer__title {
