@@ -425,6 +425,10 @@
         margin-top: 35px;
     }
 
+    .paragraph-space {
+        margin-top: 17px;
+    }
+
     .title {
         align-self: flex-start;
     }
@@ -433,8 +437,13 @@
         row-gap: 25px;
     }
 
+    .article-col__title {
+        max-width: unset;
+    }
+
     .article__text {
         row-gap: 10px;
+        grid-column: 1 / 1;
     }
 
     .articles-space {
@@ -451,10 +460,6 @@
         grid-column: 1 / 1;
         margin-bottom: 20px;
         margin-right: unset;
-    }
-
-    .article__text {
-        grid-column: 1 / 1;
     }
 
     .text-title-base {
