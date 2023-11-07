@@ -4,6 +4,10 @@
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
     background-color: var(--background-color);
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
 }
 
 .space {
@@ -13,7 +17,6 @@
 /* header */
 
 .header {
-    background-image: var(--background-image);
     padding: 20px;
     padding-left: 0;
     position: relative;
@@ -45,14 +48,30 @@
     color: var(--accent-color);
 }
 
+.header__theme-menu-button {
+    text-transform: lowercase;
+}
+
+.header__theme-menu-button:hover,
+.header__theme-menu-button_active {
+    border: 1px solid var(--button-color);
+}
+
 .header__theme-menu-button:hover {
     cursor: pointer;
-    text-transform: lowercase;
 }
 
 .header__theme-menu-button_active {
     border: 1px solid var(--accent-color);
-    cursor: pointer;
+    pointer-events: none;
+}
+
+.header__theme-menu-button:focus {
+    outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+    outline: 1px solid var(--button-outline);
 }
 
 .header__wrapper {
@@ -91,7 +110,7 @@
     height: 25px;
     border-left: none;
     border-bottom: none;
-    right: 14px;
+    right: 11px;
     top: 18px;
 }
 
@@ -207,6 +226,14 @@
     text-shadow: 2px 2px 0 var(--link-color);
 }
 
+.text-description__link:hover {
+    border-block-end: 1px solid var(--paragraph-color);
+}
+
+.text-description__link:focus {
+    outline: 1px solid var(--paragraph-color);
+}
+
 .article-col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -290,30 +317,6 @@
     align-items: center;
 }
 
-.footer::before {
-    content: '';
-    border: 1px solid var(--accent-color);
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-left: none;
-    border-bottom: none;
-    right: 14px;
-    top: 18px;
-}
-
-.footer::after {
-    content: '';
-    border: 1px solid var(--accent-color);
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-right: none;
-    border-top: none;
-    left: 14px;
-    bottom: 18px;
-}
-
 @media (max-width: 1023.8px) {
     .header {
         grid-template-rows: 1fr 1fr 1fr;
@@ -357,7 +360,6 @@
 
     .article-col {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
     }
 
     .article-col__title {
@@ -378,7 +380,6 @@
     .header {
         padding: 10px;
         grid-template-columns: 1fr;
-        min-height: 668px;
     }
 
     .header__title {

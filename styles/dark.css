@@ -16,9 +16,12 @@
     --primary-headings: #db00ff;
     --text-background: #ff0070;
     --text-color: #f1b2ce;
+    --paragraph-color: #f1b2ce;
     --link-color: var(--accent-color);
 
     --background-image: url(../images/cover-image-dark.png);
+    --button-color: #ff0070;
+    --button-outline: rgb(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +37,12 @@
         --text-color: #f1b2ce;
         --link-color: var(--accent-color);
 
+        --paragraph-color: #f1b2ce;
+
         --visibility-record: visible;
+
+        --button-color: #ff0070;
+        --button-outline: rgb(255, 0, 112, 0.4);
 
         /* background-color */
 

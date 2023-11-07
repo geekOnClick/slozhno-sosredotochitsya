@@ -18,9 +18,12 @@
     --text-shadow: #ff0070;
     --text-background: #ff8dcb;
     --text-color: #353430;
+    --paragraph-color: #353430;
     --link-color: var(--text-background);
 
     --background-image: url(../images/cover-image-light.png);
+    --button-color: #ff0070;
+    --button-outline: rgb(255, 0, 112, 0.4);
 
     --visibility-record: hidden;
 }
@@ -36,8 +39,11 @@
         --text-shadow: #ff0070;
         --text-background: #ff8dcb;
         --text-color: #353430;
+        --paragraph-color: #353430;
 
         --link-color: var(--text-background);
+        --button-color: #ff0070;
+        --button-outline: rgb(255, 0, 112, 0.4);
 
         /* background-color */
 

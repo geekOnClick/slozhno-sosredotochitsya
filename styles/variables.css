@@ -17,4 +17,10 @@
 
     --font-weight-bold: 700;
     --font-weight-base: 400;
+
+    --paragraph-color: #f1b2ce;
+
+    --background-image: url(../images/cover-image.png);
+    --button-color: #ff0070;
+    --button-outline: rgb(255, 0, 112, 0.4);
 }
